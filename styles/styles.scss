@@ -103,10 +103,6 @@ body {
 		padding-block: 32px;
 	}
 	.es-title__orange {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		gap: 0.5rem;       
 		text-transform: uppercase;
 		font-weight: 900;
 		font-style: italic;
@@ -116,7 +112,13 @@ body {
 		padding-block: 32px 16px;
 		color: $color_1;
 
-		span {
+		&.words{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			gap: 0.5rem;   
+		}
+		.word {
 			display: inline-block;
 		}
 		.green {
@@ -498,6 +500,7 @@ body {
 			max-width: 300px;
     		margin-inline: auto;
 			text-transform: uppercase;
+			text-wrap: balance;
 
 			.orange {
 				color: $color_1;
@@ -662,9 +665,12 @@ body {
 @media (min-width: 576px) {
 	#es-garnier.es-garnier {
 		.es-title__orange {
-			flex-direction: row;
 			font-size: 32px;
 			line-height: 1;
+
+			&.words{
+				flex-direction: row;
+			}
 		}
 
 		.es-kv {
