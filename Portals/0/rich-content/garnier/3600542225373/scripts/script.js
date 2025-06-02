@@ -24,7 +24,7 @@
             slidesPerView: 3,
             spaceBetween: 5,
             },
-            990: {
+            982: {
             slidesPerView: 4,
             }
         }
