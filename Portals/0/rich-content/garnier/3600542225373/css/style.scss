@@ -6,13 +6,7 @@ $black: #000;
 $font-family_1: "Montserrat", Tahoma, Verdana, sans-serif;
 $font-family_2: inherit;
 
-html {
-	margin: 0;
-}
-body {
-	margin: 0;
-}
-#es-garnier{
+#es-rc #es-garnier{
     .swiper,
     .swiper-wrapper,
     .swiper-slide {
@@ -66,7 +60,7 @@ body {
     //     }
     // }
 }
-#es-garnier.es-garnier {
+#es-rc #es-garnier.es-garnier {
 	font-family: $font-family_1;
 	overflow: hidden;
 	max-width: 982px;
@@ -653,7 +647,7 @@ body {
 	}
 }
 @media (min-width: 350px) {
-	#es-garnier.es-garnier {
+	#es-rc #es-garnier.es-garnier {
 		.es-kv {
 			&__products-container {
 				.es-kv__products-img {
@@ -664,7 +658,7 @@ body {
 	}
 }
 @media (min-width: 576px) {
-	#es-garnier.es-garnier {
+	#es-rc #es-garnier.es-garnier {
 		.es-title__orange {
 			font-size: 32px;
 			line-height: 1;
@@ -824,7 +818,7 @@ body {
 	}
 }
 @media (min-width: 768px) {
-	#es-garnier.es-garnier {
+	#es-rc #es-garnier.es-garnier {
 		.es-kv {
 			&__hero {
 				.es-kv__label{
@@ -897,8 +891,8 @@ body {
 			position: relative;
 			img {
 				margin-inline: auto;
-				max-height: 350px;
-        		margin-top: 100px;
+				max-height: 400px;
+        		margin-top: 50px;
 			}
 			&::before {
 				content: "";
@@ -958,7 +952,7 @@ body {
 	}
 }
 @media (min-width: 870px) {
-	#es-garnier.es-garnier {
+	#es-rc #es-garnier.es-garnier {
 		.es-kv {
 			&__products-container {
 
@@ -976,20 +970,20 @@ body {
 	}
 }
 @media (min-width: 982px) {
-	#es-garnier.es-garnier {
+	#es-rc #es-garnier.es-garnier {
 		
 		.es-kv {
 			&__products-container {
 
 				.es-kv__products-img {
-					max-width: 500px;
+					// max-width: 500px;
 
 				}
 			}
 		}
 
 		.es-kv__inner {
-			padding-inline: 50px;
+			padding-inline: 25px;
 		}
 		
 		.es-kv__right {
@@ -998,7 +992,7 @@ body {
 			aspect-ratio: 1/1;
 		}
 		.es-results {
-			margin-inline: 50px;
+			margin-inline: 25px;
 		}
 		.es-results__BA--text {
 			width: 120%;
@@ -1027,13 +1021,13 @@ body {
 		}
 		
 		.es-ingredience__content {
-			margin: 100px 50px;
+			margin: 100px 25px;
 		}
 		.es-ingredience__pill {
 			max-height: 200%;
 		}
 		.es-cross__products {
-			padding-inline: 50px;
+			padding-inline: 25px;
 		}
 		.es-cross__product {
 		}
@@ -1043,7 +1037,7 @@ body {
 	}
 }
 @media screen and (min-width: 576px) {
-	#es-garnier.es-garnier {
+	#es-rc #es-garnier.es-garnier {
 		.es-cross__product {
 			justify-content: flex-end;
 		}
